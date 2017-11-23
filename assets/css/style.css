@@ -56,12 +56,6 @@ a.boton-atencion:hover{
 .green-color{
     color: #299729;
 }
-.title-red {
-    color: #dd211c;
-    text-transform: uppercase;
-    font-size: 12px;
-    font-weight: 400;
-}
 .text-upper{
     text-transform: uppercase;
     font-weight: bold;
@@ -141,7 +135,7 @@ section.formularios-nav-tab {
     border-radius: 0 12px 12px 0;
 }
 .navbar-nav > li > a{
-    color: #333 !important;
+    color: #55565a;
     text-transform: uppercase;
 }
 /* para los input */
@@ -160,7 +154,7 @@ section.formularios-nav-tab {
     border: 3px solid #fff;
 }
 ul.menu-empresa li a,li.dropdown a,li.dropdown a > span{
-    color: #55565a !important;
+    color: #55565a;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 12px;
@@ -169,8 +163,17 @@ ul.menu-empresa li a,li.dropdown a,li.dropdown a > span{
     max-width: 240px;
     line-height: 20px;
 }
-li.dropdown a > span{
-
+.submenuitem {
+    padding-right: 4px;
+    padding-left: 4px;
+}
+.submenuitem span.title{
+    text-align: center;
+    width: 100%;
+}
+.submenuitem span.text{
+    font-size: 10px !important;
+    text-align: left;
 }
 div.submenuitem span{
     margin-left: 4px !important;
@@ -213,9 +216,13 @@ ul.menu-empresa li:hover a,ul.menu-empresa li:hover a > span{
     position: absolute;
     background-color: #f9f9f9;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    min-width: 240px;
+    min-width: 250px;
     z-index: 1;
-    padding: 0px 0px;
+    padding: 4px 4px;
+    border-left: solid 1px grey;
+    border-right: solid 1px grey;
+    border-bottom: solid 1px grey;
+    border-radius: 4px 0 4px 0;
 }
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -249,4 +256,16 @@ ul.menu-empresa li:hover a,ul.menu-empresa li:hover a > span{
     margin-right: 15px;
     padding-left: 15px;
     padding-right: 15px;
+}
+.red-color{
+    color: #dd211c !important;
+}
+span.caret.green-color{
+    color: #299729 !important;
+}
+.title-red {
+    color: #dd211c !important;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
 }
