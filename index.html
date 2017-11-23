@@ -319,18 +319,18 @@
                 <!-- Nav tabs -->
                 <div class="col-lg-3">
                     <ul class="nav nav-pills">
-                        <li class="active col-lg-12"><a href="#search-vuelos" data-toggle="tab"><i class="fa fa-plane"></i> <span>Buscar Vuelos</span></a>                        </li>
-                        <li class="col-lg-12"><a href="#vuelo-hotel" data-toggle="tab"><i class="fa fa-plane"></i>+<i class="fa fa-building-o"></i><span>Vuelo + Hotel</span></a>                        </li>
-                        <li class="col-lg-12"><a href="#mi-vuelo" data-toggle="tab"><i class="fa fa-ticket"></i><span>Mi Vuelo</span></a>                        </li>
-                        <li class="col-lg-12"><a href="#web-check" data-toggle="tab"><i class="fa fa-keyboard-o"></i><span>Web Check-in</span></a>                        </li>
+                        <li class="active col-lg-12"><a href="#search-vuelos" data-toggle="tab"><i class="fa fa-plane"></i> <span> Buscar Vuelos</span></a>                        </li>
+                        <li class="col-lg-12"><a href="#vuelo-hotel" data-toggle="tab"><i class="fa fa-plane"></i>+<i class="fa fa-building-o"></i><span> Vuelo + Hotel</span></a>                        </li>
+                        <li class="col-lg-12"><a href="#mi-vuelo" data-toggle="tab"><i class="fa fa-ticket"></i><span> Mi Vuelo</span></a>                        </li>
+                        <li class="col-lg-12"><a href="#web-check" data-toggle="tab"><i class="fa fa-tablet"></i><span> Web Check-in</span></a>                        </li>
                     </ul>
                 </div>
-                <div class="col-lg-9">
+                <div class="col-lg-9 search-panel">
                     <div class="tab-content container-fluid">
                         <div class="tab-pane fade in active" id="search-vuelos">
                             <div class="col-lg-4">
-                                <label class="radio-inline radioForm"> <input name="optionsRadios"  value="option1" checked="" type="radio">Sencilla  </label>
-                                <label class="radio-inline radioForm">   <input name="optionsRadios"  value="option1" checked="" type="radio">Redondo    </label>
+                                <label class="radio-inline"> <input name="optionsRadios" class="radioForm"  value="option1" checked="" type="radio">Sencilla  </label>
+                                <label class="radio-inline">   <input name="optionsRadios" class="radioForm"  value="option1" checked="" type="radio">Redondo    </label>
                                 <select class="inputForm">
                                     <option>Buscar Origen</option>
                                 </select>
@@ -368,14 +368,14 @@
                                 <input id="regreso-date" type="text" class="form-control inputForm" value="Regreso">
                             </div>
                             <div class="col-lg-4">
-                                <label class="radio-inline radioForm"> <input name="optionsPeso"  value="option1" checked="" type="radio">MXN  </label>
-                                <label class="radio-inline radioForm">   <input name="optionsPeso"  value="option2" checked="" type="radio">USD    </label>
+                                <label class="radio-inline"> <input class="radioForm" name="optionsPeso"  value="option1" checked="" type="radio">MXN  </label>
+                                <label class="radio-inline">   <input class="radioForm" name="optionsPeso"  value="option2" checked="" type="radio">USD    </label>
                                 <input id="search-post" type="text" class="form-control inputForm" value="VIVA">
                             </div>
                         </div>
                         <div class="tab-pane fade" id="vuelo-hotel">
                             <div class="col-lg-4">
-                                <label class="radio-inline radioForm"> <input name="optionsMoneda"  value="option1" checked="true" type="radio">Pesos Mexicanos  </label>
+                                <label class="radio-inline"> <input class="radioForm" name="optionsMoneda"  value="option1" checked="true" type="radio">Pesos Mexicanos  </label>
                                 <select class="form-control inputForm">
                                     <option>DESDE --Seleccione--</option>
                                 </select>
@@ -408,7 +408,7 @@
                                 </div>
                             </div>
                             <div class="col-lg-4">
-                                <label class="radio-inline radioForm"> <input name="optionsMoneda"  value="option2" checked="" type="radio">Dólares  </label>
+                                <label class="radio-inline"> <input class="radioForm" name="optionsMoneda"  value="option2" checked="" type="radio">Dólares  </label>
                                 <input id="salida-date2" type="text" class="form-control inputForm" value="Salida">
                                 <input id="regreso-date2" type="text" class="form-control inputForm" value="Regreso">
                             </div>
